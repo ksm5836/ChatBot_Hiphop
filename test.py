@@ -10,8 +10,8 @@ from flask import Flask, request, make_response, render_template
 
 app = Flask(__name__)
 
-slack_token = 'xoxb-503049869125-506761050128-aAB2vuXTSuXtGXboCFUHVKyr'
-slack_client_id = '503049869125.508549271159'
+slack_token = ''
+slack_client_id = ''
 slack_client_secret = '0d4cff9f98dfeb71d37a5ca43395039f'
 slack_verification = '7DurBb5fYeEnC2ZgDmJg3xaG'
 sc = SlackClient(slack_token)
